@@ -1,0 +1,53 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="br.com.brunoti.kotlintodolist"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->C:\Users\rober\Downloads\Compressed\KotlinToDoList-main\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->C:\Users\rober\Downloads\Compressed\KotlinToDoList-main\app\src\main\AndroidManifest.xml
+10
+11    <application
+11-->C:\Users\rober\Downloads\Compressed\KotlinToDoList-main\app\src\main\AndroidManifest.xml:5:2-25:16
+12        android:allowBackup="true"
+12-->C:\Users\rober\Downloads\Compressed\KotlinToDoList-main\app\src\main\AndroidManifest.xml:6:3-29
+13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+13-->[androidx.core:core:1.6.0] C:\Users\rober\.gradle\caches\transforms-3\edeb430ac0b0bea9c609d4daffe0d06e\transformed\core-1.6.0\AndroidManifest.xml:24:18-86
+14        android:debuggable="true"
+15        android:icon="@mipmap/ic_launcher"
+15-->C:\Users\rober\Downloads\Compressed\KotlinToDoList-main\app\src\main\AndroidManifest.xml:7:3-37
+16        android:label="@string/app_name"
+16-->C:\Users\rober\Downloads\Compressed\KotlinToDoList-main\app\src\main\AndroidManifest.xml:8:3-35
+17        android:roundIcon="@mipmap/ic_launcher_round"
+17-->C:\Users\rober\Downloads\Compressed\KotlinToDoList-main\app\src\main\AndroidManifest.xml:9:3-48
+18        android:supportsRtl="true"
+18-->C:\Users\rober\Downloads\Compressed\KotlinToDoList-main\app\src\main\AndroidManifest.xml:10:3-29
+19        android:testOnly="true"
+20        android:theme="@style/Theme.KotlinToDoList" >
+20-->C:\Users\rober\Downloads\Compressed\KotlinToDoList-main\app\src\main\AndroidManifest.xml:11:3-46
+21        <activity android:name="br.com.brunoti.kotlintodolist.ui.MainActivity" >
+21-->C:\Users\rober\Downloads\Compressed\KotlinToDoList-main\app\src\main\AndroidManifest.xml:13:3-19:14
+21-->C:\Users\rober\Downloads\Compressed\KotlinToDoList-main\app\src\main\AndroidManifest.xml:13:13-44
+22            <intent-filter>
+22-->C:\Users\rober\Downloads\Compressed\KotlinToDoList-main\app\src\main\AndroidManifest.xml:14:4-18:20
+23                <action android:name="android.intent.action.MAIN" />
+23-->C:\Users\rober\Downloads\Compressed\KotlinToDoList-main\app\src\main\AndroidManifest.xml:15:5-57
+23-->C:\Users\rober\Downloads\Compressed\KotlinToDoList-main\app\src\main\AndroidManifest.xml:15:13-54
+24
+25                <category android:name="android.intent.category.LAUNCHER" />
+25-->C:\Users\rober\Downloads\Compressed\KotlinToDoList-main\app\src\main\AndroidManifest.xml:17:5-65
+25-->C:\Users\rober\Downloads\Compressed\KotlinToDoList-main\app\src\main\AndroidManifest.xml:17:15-62
+26            </intent-filter>
+27        </activity>
+28        <activity
+28-->C:\Users\rober\Downloads\Compressed\KotlinToDoList-main\app\src\main\AndroidManifest.xml:21:3-23:52
+29            android:name="br.com.brunoti.kotlintodolist.ui.SaveTaskActivity"
+29-->C:\Users\rober\Downloads\Compressed\KotlinToDoList-main\app\src\main\AndroidManifest.xml:22:4-39
+30            android:parentActivityName="br.com.brunoti.kotlintodolist.ui.MainActivity" />
+30-->C:\Users\rober\Downloads\Compressed\KotlinToDoList-main\app\src\main\AndroidManifest.xml:23:4-49
+31    </application>
+32
+33</manifest>
